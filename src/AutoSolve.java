@@ -107,7 +107,6 @@ public class AutoSolve {
     }
     return null;
   }
-
     private List<int[]> getNeighbors(int[][] state) {
       List<int[]> neighbors = new ArrayList<>();
       int[] blankPosition = findBlankPosition(state);
