@@ -101,7 +101,7 @@ public class Game {
     arr[p.x][blankSpot] = arr[p.x][newBlankSpot];
     arr[p.x][newBlankSpot] = 0;
   }
-  private boolean isPuzzleSolved(int[][] arr, List<Integer> solvedPuzzle) {
+  public boolean isPuzzleSolved(int[][] arr, List<Integer> solvedPuzzle) {
     int rows = arr.length;
     int cols = arr[0].length;
     int index = 0; // Index to track the position in the sequence list

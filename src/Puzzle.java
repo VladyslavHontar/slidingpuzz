@@ -42,9 +42,8 @@ public class Puzzle {
       return arr;
     } else {
       System.out.println("Puzzle is not solvable.");
-      setUp();
+      return arr;
     }
-    return arr;
   }
 
   private boolean isSolvable(int[][] puzzle) {
