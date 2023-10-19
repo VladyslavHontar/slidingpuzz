@@ -8,5 +8,6 @@ public class View {
       }
       System.out.println(); // Move to the next line for the next row
     }
+    System.out.println(); // Add an extra line for spacing
   }
 }
