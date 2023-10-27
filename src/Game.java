@@ -37,7 +37,8 @@ public class Game {
           moveRight();
           break;
           case "AUTO":
-          AutoSolve auto = new AutoSolve(p, this);
+          new AutoSolve(p, this);
+          break;
         case "Q":
           System.out.println("Quitting the game. Goodbye!");
           return;
